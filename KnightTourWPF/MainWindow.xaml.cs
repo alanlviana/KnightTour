@@ -24,6 +24,8 @@ namespace KnightTourWPF
 
         private CalculoMelhorLance calculadora;
 
+        
+
         private Rectangle[,] retangulos = new Rectangle[8, 8];
 
         public MainWindow()
@@ -31,6 +33,8 @@ namespace KnightTourWPF
             InitializeComponent();
 
             preencherTabuleiro();
+
+
         }
 
 

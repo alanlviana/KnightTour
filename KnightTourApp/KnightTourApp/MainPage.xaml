@@ -6,10 +6,10 @@
 
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <Label Text="Faça o seu seu lance" />
+            <Label Text="Knight Tour" FontSize="Medium" />
 
 
-            <Grid x:Name="board" ColumnSpacing="0" RowSpacing="0" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand">
+            <Grid x:Name="board" ColumnSpacing="0" RowSpacing="0" HorizontalOptions="Center" WidthRequest="320" HeightRequest="320">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -32,7 +32,8 @@
                 </Grid.ColumnDefinitions>
 
             </Grid>
-            <Button Text="Iniciar"/>
+            <Button Text="Iniciar" x:Name="btnComando"/>
+            <Image Source="knight.png" />
         </StackLayout>
 
 

@@ -41,6 +41,10 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\CalculoMelhorLance.cs" />
+    <Compile Include="Model\Cavalo.cs" />
+    <Compile Include="Model\Posicao.cs" />
+    <Compile Include="Model\Tabuleiro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
